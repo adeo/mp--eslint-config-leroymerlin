@@ -30,4 +30,4 @@ module.exports = {
 };
 ```
 
-Optionally, use it with [husky 🐶](https://github.com/typicode/husky) and [lint-staged 🚫💩](https://github.com/okonet/lint-staged)
+Optionally, use it with [husky](https://github.com/typicode/husky) 🐶 and [lint-staged](https://github.com/okonet/lint-staged) 🚫💩
