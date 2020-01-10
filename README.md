@@ -5,7 +5,7 @@
 ## Install & Usage
 
 ```bash
-$ npm install --save-dev eslint prettier eslint-plugin-leroymerlin
+$ npm install --save-dev eslint prettier eslint-config-leroymerlin
 ```
 
 - Requires Node.js `>=10.18.0`
