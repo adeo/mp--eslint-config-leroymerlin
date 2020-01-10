@@ -4,7 +4,10 @@
   "description": "LeroyMerlin's ESLint config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "test:ci": "npm test",
+    "build": "npm pack",
+    "version:upd": "npm version patch",
     "lint": "lint-staged"
   },
   "dependencies": {
