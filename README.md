@@ -19,7 +19,7 @@ $ npm install --save-dev eslint prettier eslint-config-leroymerlin
 
 **package.json**
 
-```json
+```javascript
 {
   /*
     ...
