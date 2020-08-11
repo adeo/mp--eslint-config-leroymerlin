@@ -16,6 +16,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-namespace': 'off',
     '@typescript-eslint/interface-name-prefix': 'off',
+    '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
