@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-leroymerlin",
-  "version": "1.0.1-feature-v1-3.0",
+  "version": "1.0.0",
   "description": "LeroyMerlin's ESLint config",
   "main": "index.js",
   "scripts": {
