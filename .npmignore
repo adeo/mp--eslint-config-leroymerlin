@@ -1,0 +1,9 @@
+.vscode
+.dockerignore
+.editorconfig
+.eslintrc.js
+.huskyrc.js
+.prettierrc.js
+Dockerfile
+Jenkinsfile
+lint-staged.config.js
