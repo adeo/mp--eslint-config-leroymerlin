@@ -25,7 +25,7 @@ $ npm install --save-dev eslint prettier eslint-config-leroymerlin
     ...
   */
 
-  engines": {
+  "engines": {
     "node": ">=10.18.0"
   }
 }
