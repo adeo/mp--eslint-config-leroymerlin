@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-leroymerlin",
+  "name": "@leroymerlin/eslint-config-leroymerlin",
   "version": "1.0.2",
   "description": "LeroyMerlin's ESLint config",
   "main": "index.js",
