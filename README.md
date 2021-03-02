@@ -128,3 +128,7 @@ module.exports = {
   '*.ts': ['eslint --fix', generateTSConfig],
 };
 ```
+
+## License
+
+@leroymerlin/eslint-config-leroymerlin is [MIT](LICENSE).
