@@ -7,12 +7,12 @@
 
 ## Using with Javascript apps
 
-`eslint-config-leroymerlin/node/javascript`
+`@leroymerlin/eslint-config-leroymerlin/node/javascript`
 
 ### Install & Usage
 
 ```bash
-$ npm install --save-dev eslint prettier eslint-config-leroymerlin
+$ npm install --save-dev eslint prettier @leroymerlin/eslint-config-leroymerlin
 ```
 
 **Note:** It recommends a use of [the "engines" field of package.json](https://docs.npmjs.com/files/package.json#engines). The "engines" field is used by `node/no-unsupported-features/*` rules.
@@ -38,7 +38,7 @@ $ npm install --save-dev eslint prettier eslint-config-leroymerlin
 
 module.exports = {
   root: true,
-  extends: ['leroymerlin/node/javascript'],
+  extends: ['@leroymerlin/eslint-config-leroymerlin/node/javascript'],
   rules: {
     /*
       Add any additional rules here
@@ -50,12 +50,12 @@ module.exports = {
 
 ## Using with Typescript apps
 
-`eslint-config-leroymerlin/node/typescript`
+`@leroymerlin/eslint-config-leroymerlin/node/typescript`
 
 ### Install & Usage
 
 ```bash
-$ npm install --save-dev eslint prettier eslint-config-leroymerlin @typescript-eslint/eslint-plugin
+$ npm install --save-dev eslint prettier @leroymerlin/eslint-config-leroymerlin @typescript-eslint/eslint-plugin
 ```
 
 **.eslintrc.js** (An example)
@@ -68,7 +68,7 @@ module.exports = {
   parserOptions: {
     project: 'tsconfig.json',
   },
-  extends: ['leroymerlin/node/typescript'],
+  extends: ['@leroymerlin/eslint-config-leroymerlin/node/typescript'],
   rules: {
     /*
       Add any additional rules here
@@ -128,3 +128,7 @@ module.exports = {
   '*.ts': ['eslint --fix', generateTSConfig],
 };
 ```
+
+## License
+
+@leroymerlin/eslint-config-leroymerlin is [MIT](LICENSE).
